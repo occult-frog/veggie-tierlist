@@ -1,0 +1,12 @@
+tier-row {
+    display: flex;
+    border-width: 5px;
+    border-color: black;
+    flex-direction: row;
+    gap: 5px;
+}
+tier-letter {
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+}
