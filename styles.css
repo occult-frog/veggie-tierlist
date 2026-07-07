@@ -1,12 +1,17 @@
-tier-row {
+.tier-row {
     display: flex;
-    border-width: 5px;
-    border-color: black;
+    border: 5px solid black;
     flex-direction: row;
     gap: 5px;
+    margin-bottom: 5px;
+    padding: 2px;
 }
-tier-letter {
+.tier-letter {
     width: 100px;
     height: 100px;
     font-size: 50px;
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
 }
